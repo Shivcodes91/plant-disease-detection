@@ -1,0 +1,31 @@
+# Virtual environment — never commit this (it's huge and machine-specific)
+venv/
+
+# Python cache files — auto-generated, not needed in git
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables file — contains secrets like DB passwords
+.env
+
+# Data folder — files are too large for git
+data/raw/
+data/processed/
+
+# Trained model files — too large for git
+backend/models/*.pt
+backend/models/*.onnx
+
+# MLflow experiment logs
+mlruns/
+*.log
+
+# VS Code settings
+.vscode/
+
+# Windows system files
+Thumbs.db
+
+# Mac system files
+.DS_Store
