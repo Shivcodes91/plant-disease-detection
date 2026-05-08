@@ -1,0 +1,17 @@
+class_name,plant,is_healthy,image_count,sample_image
+Pepper__bell___Bacterial_spot,Pepper,False,1994,..\..\data\raw\PlantVillage\Pepper__bell___Bacterial_spot\0022d6b7-d47c-4ee2-ae9a-392a53f48647___JR_B.Spot 8964.JPG
+Pepper__bell___healthy,Pepper,True,2955,..\..\data\raw\PlantVillage\Pepper__bell___healthy\00100ffa-095e-4881-aebf-61fe5af7226e___JR_HL 7886.JPG
+PlantVillage,PlantVillage,False,0,
+Potato___Early_blight,Potato,False,2000,..\..\data\raw\PlantVillage\Potato___Early_blight\001187a0-57ab-4329-baff-e7246a9edeb0___RS_Early.B 8178.JPG
+Potato___healthy,Potato,True,304,..\..\data\raw\PlantVillage\Potato___healthy\00fc2ee5-729f-4757-8aeb-65c3355874f2___RS_HL 1864.JPG
+Potato___Late_blight,Potato,False,2000,..\..\data\raw\PlantVillage\Potato___Late_blight\0051e5e8-d1c4-4a84-bf3a-a426cdad6285___RS_LB 4640.JPG
+Tomato__Target_Spot,Tomato,False,2808,..\..\data\raw\PlantVillage\Tomato__Target_Spot\002213fb-b620-4593-b9ac-6a6cc119b100___Com.G_TgS_FL 8360.JPG
+Tomato__Tomato_mosaic_virus,Tomato,False,746,..\..\data\raw\PlantVillage\Tomato__Tomato_mosaic_virus\000ec6ea-9063-4c33-8abe-d58ca8a88878___PSU_CG 2169.JPG
+Tomato__Tomato_YellowLeaf__Curl_Virus,Tomato,False,6416,..\..\data\raw\PlantVillage\Tomato__Tomato_YellowLeaf__Curl_Virus\00139ae8-d881-4edb-925f-46584b0bd68c___YLCV_NREC 2944.JPG
+Tomato_Bacterial_spot,Tomato,False,4254,..\..\data\raw\PlantVillage\Tomato_Bacterial_spot\00416648-be6e-4bd4-bc8d-82f43f8a7240___GCREC_Bact.Sp 3110.JPG
+Tomato_Early_blight,Tomato,False,2000,..\..\data\raw\PlantVillage\Tomato_Early_blight\0012b9d2-2130-4a06-a834-b1f3af34f57e___RS_Erly.B 8389.JPG
+Tomato_healthy,Tomato,True,3182,..\..\data\raw\PlantVillage\Tomato_healthy\000146ff-92a4-4db6-90ad-8fce2ae4fddd___GH_HL Leaf 259.1.JPG
+Tomato_Late_blight,Tomato,False,3817,..\..\data\raw\PlantVillage\Tomato_Late_blight\0003faa8-4b27-4c65-bf42-6d9e352ca1a5___RS_Late.B 4946.JPG
+Tomato_Leaf_Mold,Tomato,False,1904,..\..\data\raw\PlantVillage\Tomato_Leaf_Mold\00694db7-3327-45e0-b4da-a8bb7ab6a4b7___Crnl_L.Mold 6923.JPG
+Tomato_Septoria_leaf_spot,Tomato,False,3542,..\..\data\raw\PlantVillage\Tomato_Septoria_leaf_spot\002533c1-722b-44e5-9d2e-91f7747b2543___Keller.St_CG 1831.JPG
+Tomato_Spider_mites_Two_spotted_spider_mite,Tomato,False,3352,..\..\data\raw\PlantVillage\Tomato_Spider_mites_Two_spotted_spider_mite\002835d1-c18e-4471-aa6e-8d8c29585e9b___Com.G_SpM_FL 8584.JPG
