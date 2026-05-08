@@ -1,7 +1,6 @@
 class_name,plant,is_healthy,image_count,sample_image
 Pepper__bell___Bacterial_spot,Pepper,False,1994,..\..\data\raw\PlantVillage\Pepper__bell___Bacterial_spot\0022d6b7-d47c-4ee2-ae9a-392a53f48647___JR_B.Spot 8964.JPG
 Pepper__bell___healthy,Pepper,True,2955,..\..\data\raw\PlantVillage\Pepper__bell___healthy\00100ffa-095e-4881-aebf-61fe5af7226e___JR_HL 7886.JPG
-PlantVillage,PlantVillage,False,0,
 Potato___Early_blight,Potato,False,2000,..\..\data\raw\PlantVillage\Potato___Early_blight\001187a0-57ab-4329-baff-e7246a9edeb0___RS_Early.B 8178.JPG
 Potato___healthy,Potato,True,304,..\..\data\raw\PlantVillage\Potato___healthy\00fc2ee5-729f-4757-8aeb-65c3355874f2___RS_HL 1864.JPG
 Potato___Late_blight,Potato,False,2000,..\..\data\raw\PlantVillage\Potato___Late_blight\0051e5e8-d1c4-4a84-bf3a-a426cdad6285___RS_LB 4640.JPG
