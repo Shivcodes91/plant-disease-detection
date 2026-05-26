@@ -1,0 +1,1223 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "total_diseases": 15,
+    "plants_covered": ["Tomato", "Potato", "Pepper"],
+    "last_updated": "2026-05-25"
+  },
+  "diseases": {
+    "Pepper__bell___Bacterial_spot": {
+      "id": "pepper_bacterial_spot",
+      "display_name": "Pepper Bacterial Spot",
+      "plant": "Pepper (Bell)",
+      "pathogen_type": "Bacterial",
+      "pathogen_name": "Xanthomonas campestris pv. vesicatoria",
+      "severity": "moderate",
+      "is_healthy": false,
+      "overview": "Bacterial spot is one of the most devastating diseases of pepper. It causes dark, water-soaked spots on leaves, stems and fruits, leading to significant yield loss especially in warm, wet conditions.",
+      "symptoms": [
+        "Small, water-soaked spots on leaves (1-5mm)",
+        "Spots turn brown to black with yellow halos",
+        "Leaves turn yellow and drop prematurely",
+        "Dark, raised scabs on pepper fruits",
+        "Stem lesions causing wilting",
+        "Spots may have a greasy appearance when wet"
+      ],
+      "causes": [
+        "Bacteria spread through infected seeds",
+        "Splashing rain or overhead irrigation spreads bacteria",
+        "Warm temperatures (24-30°C) favor spread",
+        "High humidity above 80% accelerates infection",
+        "Wounds from insects or hail provide entry points",
+        "Using infected transplants"
+      ],
+      "severity_details": {
+        "level": "moderate",
+        "yield_loss_potential": "20-50%",
+        "spread_speed": "fast in wet conditions",
+        "crop_risk": "high if untreated"
+      },
+      "treatments": {
+        "immediate_action": [
+          "Remove and destroy heavily infected plant parts",
+          "Avoid working with plants when wet",
+          "Stop overhead irrigation immediately"
+        ],
+        "chemical_treatments": [
+          {
+            "name": "Copper Hydroxide",
+            "brand_examples": ["Kocide 3000", "Blue Shield"],
+            "dosage": "1.5-2.5 kg per hectare",
+            "frequency": "Every 7-10 days",
+            "timing": "Apply in early morning or evening",
+            "notes": "Most effective preventive treatment"
+          },
+          {
+            "name": "Copper Oxychloride",
+            "brand_examples": ["Blitox", "Fytolan"],
+            "dosage": "2.5-3.0 g per liter of water",
+            "frequency": "Every 7 days during wet weather",
+            "timing": "Before rain events if possible",
+            "notes": "Combine with mancozeb for better results"
+          },
+          {
+            "name": "Streptomycin Sulfate",
+            "brand_examples": ["Agrimycin"],
+            "dosage": "200 ppm solution",
+            "frequency": "Every 5-7 days",
+            "timing": "At first sign of disease",
+            "notes": "Antibiotic — use sparingly to prevent resistance"
+          }
+        ],
+        "organic_treatments": [
+          {
+            "name": "Neem Oil Spray",
+            "dosage": "5ml per liter of water",
+            "frequency": "Every 7 days",
+            "notes": "Add few drops of dish soap as emulsifier"
+          },
+          {
+            "name": "Copper-based Organic Spray",
+            "dosage": "As per label",
+            "frequency": "Every 10 days",
+            "notes": "OMRI listed for organic farming"
+          }
+        ]
+      },
+      "prevention": [
+        "Use certified disease-free seeds",
+        "Apply 2-year crop rotation (avoid Solanaceae family)",
+        "Use drip irrigation instead of overhead sprinklers",
+        "Space plants properly for good air circulation (45-60cm apart)",
+        "Apply preventive copper sprays before rainy season",
+        "Remove crop debris after harvest",
+        "Avoid touching plants when wet"
+      ],
+      "treatment_timeline": {
+        "day_1": "Remove infected leaves, stop overhead watering, apply copper spray",
+        "day_3_7": "Monitor spread, repeat copper spray if rain occurs",
+        "week_2": "Assess improvement, continue 7-day spray schedule",
+        "week_3_4": "If improving, extend spray interval to 10 days",
+        "month_2": "Focus on prevention, maintain spray program"
+      },
+      "favorable_conditions": {
+        "temperature": "24-30°C",
+        "humidity": ">80%",
+        "season": "Rainy season / monsoon",
+        "risk_period": "After heavy rain or hail"
+      }
+    },
+
+    "Pepper__bell___healthy": {
+      "id": "pepper_healthy",
+      "display_name": "Healthy Pepper Plant",
+      "plant": "Pepper (Bell)",
+      "pathogen_type": null,
+      "severity": "none",
+      "is_healthy": true,
+      "overview": "Your pepper plant appears healthy! Continue good agricultural practices to maintain plant health and maximize yield.",
+      "symptoms": [],
+      "causes": [],
+      "treatments": {
+        "immediate_action": ["No treatment needed"],
+        "chemical_treatments": [],
+        "organic_treatments": []
+      },
+      "prevention": [
+        "Water at soil level, avoid wetting foliage",
+        "Fertilize regularly with balanced NPK fertilizer",
+        "Monitor weekly for early signs of disease",
+        "Maintain proper plant spacing for airflow",
+        "Remove weeds that harbor pests and diseases"
+      ],
+      "maintenance_tips": [
+        "Apply balanced fertilizer (10-10-10) every 2 weeks",
+        "Mulch around base to retain moisture",
+        "Support heavy branches to prevent breakage",
+        "Inspect undersides of leaves weekly for pests"
+      ],
+      "treatment_timeline": {
+        "ongoing": "Continue regular monitoring and preventive care"
+      }
+    },
+
+    "Potato___Early_blight": {
+      "id": "potato_early_blight",
+      "display_name": "Potato Early Blight",
+      "plant": "Potato",
+      "pathogen_type": "Fungal",
+      "pathogen_name": "Alternaria solani",
+      "severity": "moderate",
+      "is_healthy": false,
+      "overview": "Early blight is a common fungal disease that appears as dark spots with concentric rings (target board pattern) on older leaves first. It rarely kills plants but significantly reduces yield and tuber quality.",
+      "symptoms": [
+        "Dark brown spots with concentric rings (bulls-eye pattern)",
+        "Spots surrounded by yellow tissue",
+        "Lower/older leaves affected first",
+        "Spots enlarge and merge causing leaf death",
+        "Stems show dark elongated lesions",
+        "Tubers show dark, sunken, dry lesions"
+      ],
+      "causes": [
+        "Alternaria solani fungus overwinters in soil and debris",
+        "Spores spread by wind and splashing water",
+        "Warm days (24-29°C) and cool nights favor disease",
+        "Stressful conditions (drought, low fertility) increase susceptibility",
+        "Plants weakened by other issues more vulnerable"
+      ],
+      "severity_details": {
+        "level": "moderate",
+        "yield_loss_potential": "20-30%",
+        "spread_speed": "moderate",
+        "crop_risk": "moderate — mainly affects yield quality"
+      },
+      "treatments": {
+        "immediate_action": [
+          "Remove lower infected leaves immediately",
+          "Do not compost infected material — burn or discard",
+          "Begin fungicide application immediately"
+        ],
+        "chemical_treatments": [
+          {
+            "name": "Chlorothalonil",
+            "brand_examples": ["Daconil", "Bravo"],
+            "dosage": "2.0-2.5 g per liter of water",
+            "frequency": "Every 7-10 days",
+            "timing": "Start before symptoms appear in high-risk periods",
+            "notes": "Excellent protectant fungicide for early blight"
+          },
+          {
+            "name": "Mancozeb",
+            "brand_examples": ["Dithane M-45", "Indofil M-45"],
+            "dosage": "2.5 g per liter of water",
+            "frequency": "Every 7 days",
+            "timing": "Apply in early morning",
+            "notes": "Broad spectrum protectant, good for prevention"
+          },
+          {
+            "name": "Azoxystrobin",
+            "brand_examples": ["Amistar", "Quadris"],
+            "dosage": "1.0 ml per liter of water",
+            "frequency": "Every 14 days",
+            "timing": "Apply when disease first appears",
+            "notes": "Systemic fungicide — works from inside plant"
+          }
+        ],
+        "organic_treatments": [
+          {
+            "name": "Copper Sulfate + Lime (Bordeaux Mixture)",
+            "dosage": "1% solution",
+            "frequency": "Every 10-14 days",
+            "notes": "Traditional organic treatment, very effective"
+          },
+          {
+            "name": "Neem Oil",
+            "dosage": "5ml per liter",
+            "frequency": "Every 7 days",
+            "notes": "Best used as preventive measure"
+          }
+        ]
+      },
+      "prevention": [
+        "Use certified disease-free seed potatoes",
+        "Apply 3-year crop rotation",
+        "Plant resistant varieties (Atlantic, Kennebec)",
+        "Ensure adequate potassium and calcium fertilization",
+        "Apply preventive fungicide at vine closure",
+        "Remove volunteer potato plants",
+        "Destroy crop residue after harvest"
+      ],
+      "treatment_timeline": {
+        "day_1": "Remove infected lower leaves, apply Chlorothalonil or Mancozeb",
+        "day_7": "Inspect and reapply fungicide",
+        "week_2": "Continue spray program, check new growth",
+        "week_3": "If controlled, switch to 10-day interval",
+        "harvest": "Stop spraying 2 weeks before harvest"
+      },
+      "favorable_conditions": {
+        "temperature": "24-29°C days, cool nights",
+        "humidity": "Moderate with dew formation",
+        "season": "Mid to late season",
+        "risk_period": "After plant stress events"
+      }
+    },
+
+    "Potato___Late_blight": {
+      "id": "potato_late_blight",
+      "display_name": "Potato Late Blight",
+      "plant": "Potato",
+      "pathogen_type": "Oomycete (Water Mold)",
+      "pathogen_name": "Phytophthora infestans",
+      "severity": "severe",
+      "is_healthy": false,
+      "overview": "CRITICAL DISEASE. Late blight caused the Irish Potato Famine (1845-49) killing over 1 million people. It can destroy an entire crop in 7-10 days under favorable conditions. Immediate action is essential.",
+      "symptoms": [
+        "Water-soaked pale green spots on leaf edges/tips",
+        "Spots rapidly turn brown-black",
+        "White fuzzy growth on leaf underside in humid conditions",
+        "Dark brown-black stem lesions",
+        "Entire plant can collapse within days",
+        "Tubers show reddish-brown internal rot"
+      ],
+      "causes": [
+        "Phytophthora infestans — highly aggressive water mold",
+        "Spreads extremely fast in cool (10-20°C) wet conditions",
+        "Spores travel miles by wind",
+        "Infected seed tubers are primary source",
+        "Survives in infected tubers in soil"
+      ],
+      "severity_details": {
+        "level": "severe",
+        "yield_loss_potential": "100% if untreated",
+        "spread_speed": "very fast — entire field in 7-10 days",
+        "crop_risk": "CRITICAL — act immediately"
+      },
+      "treatments": {
+        "immediate_action": [
+          "ACT WITHIN 24 HOURS — this disease spreads extremely fast",
+          "Apply systemic fungicide immediately",
+          "Alert neighboring farmers — spores spread by wind",
+          "Consider destroying severely infected plants"
+        ],
+        "chemical_treatments": [
+          {
+            "name": "Metalaxyl + Mancozeb",
+            "brand_examples": ["Ridomil Gold MZ", "Apron XL"],
+            "dosage": "2.5 g per liter of water",
+            "frequency": "Every 7 days",
+            "timing": "Apply immediately at first sign",
+            "notes": "Most effective systemic treatment for late blight"
+          },
+          {
+            "name": "Cymoxanil + Mancozeb",
+            "brand_examples": ["Curzate M8"],
+            "dosage": "2.0 g per liter of water",
+            "frequency": "Every 5-7 days in severe cases",
+            "timing": "Apply in early morning or evening",
+            "notes": "Works curatively up to 3 days after infection"
+          },
+          {
+            "name": "Propamocarb Hydrochloride",
+            "brand_examples": ["Previcur N"],
+            "dosage": "As per label",
+            "frequency": "Every 10 days preventively",
+            "timing": "Preventive application before disease appears",
+            "notes": "Excellent for high-risk periods"
+          }
+        ],
+        "organic_treatments": [
+          {
+            "name": "Copper Hydroxide",
+            "dosage": "3g per liter",
+            "frequency": "Every 5-7 days",
+            "notes": "Best organic option but less effective than synthetic"
+          }
+        ]
+      },
+      "prevention": [
+        "Plant only certified disease-free seed potatoes",
+        "Grow resistant varieties (Sarpo Mira, Defender)",
+        "Apply preventive fungicide before disease season",
+        "Monitor weather forecasts — spray before rain",
+        "Use blight forecasting tools (BlightWatch, Smith Period)",
+        "Ensure 75cm row spacing for air circulation",
+        "Destroy all volunteer potato plants"
+      ],
+      "treatment_timeline": {
+        "hour_1_24": "URGENT: Apply systemic fungicide immediately",
+        "day_2_3": "Monitor spread, reapply if rain washes off spray",
+        "day_7": "Second application, assess plant condition",
+        "week_2": "Continue intensive spray program",
+        "severe_case": "Consider destroying crop to protect neighbors"
+      },
+      "favorable_conditions": {
+        "temperature": "10-20°C",
+        "humidity": ">90%",
+        "season": "Cool wet periods",
+        "risk_period": "Smith Period: 2+ days with temp >10°C and humidity >90%"
+      }
+    },
+
+    "Potato___healthy": {
+      "id": "potato_healthy",
+      "display_name": "Healthy Potato Plant",
+      "plant": "Potato",
+      "pathogen_type": null,
+      "severity": "none",
+      "is_healthy": true,
+      "overview": "Your potato plant looks healthy! Potatoes are vulnerable to several serious diseases — maintain good practices to protect your crop.",
+      "symptoms": [],
+      "causes": [],
+      "treatments": {
+        "immediate_action": ["No treatment needed"],
+        "chemical_treatments": [],
+        "organic_treatments": []
+      },
+      "prevention": [
+        "Apply preventive fungicide program during high-risk periods",
+        "Monitor weather — spray before rain events",
+        "Use drip irrigation to keep foliage dry",
+        "Hill soil around stems to protect tubers",
+        "Scout fields twice weekly during growing season"
+      ],
+      "maintenance_tips": [
+        "Fertilize with NPK 15-15-15 at planting",
+        "Side dress with nitrogen at vine closure",
+        "Maintain consistent soil moisture",
+        "Monitor for Colorado potato beetle weekly"
+      ],
+      "treatment_timeline": {
+        "ongoing": "Preventive fungicide every 14 days during wet season"
+      }
+    },
+
+    "Tomato_Bacterial_spot": {
+      "id": "tomato_bacterial_spot",
+      "display_name": "Tomato Bacterial Spot",
+      "plant": "Tomato",
+      "pathogen_type": "Bacterial",
+      "pathogen_name": "Xanthomonas vesicatoria",
+      "severity": "moderate",
+      "is_healthy": false,
+      "overview": "Bacterial spot causes small dark spots on leaves, stems, and fruits. It is particularly damaging to fruit quality and marketability, with infected fruits being unsaleable.",
+      "symptoms": [
+        "Small water-soaked spots on leaves (1-3mm)",
+        "Spots dry to dark brown with yellow margins",
+        "Raised scab-like spots on green fruits",
+        "Severely infected leaves drop early",
+        "Stem streaking in severe cases"
+      ],
+      "causes": [
+        "Bacteria spread through infected seed",
+        "Splashing water spreads infection",
+        "Temperature 25-30°C with high humidity",
+        "Wind-driven rain during storms"
+      ],
+      "severity_details": {
+        "level": "moderate",
+        "yield_loss_potential": "10-50%",
+        "spread_speed": "moderate to fast",
+        "crop_risk": "high impact on fruit quality"
+      },
+      "treatments": {
+        "immediate_action": [
+          "Remove infected leaves",
+          "Switch to drip irrigation",
+          "Apply copper-based bactericide"
+        ],
+        "chemical_treatments": [
+          {
+            "name": "Copper Hydroxide",
+            "brand_examples": ["Kocide 3000"],
+            "dosage": "2.0 g per liter",
+            "frequency": "Every 7 days",
+            "timing": "Early morning",
+            "notes": "Primary treatment for bacterial diseases"
+          },
+          {
+            "name": "Copper Oxychloride + Mancozeb",
+            "brand_examples": ["Blitox Plus"],
+            "dosage": "2.5 g per liter",
+            "frequency": "Every 7-10 days",
+            "timing": "Before expected rain",
+            "notes": "Combined protection against bacterial and fungal"
+          }
+        ],
+        "organic_treatments": [
+          {
+            "name": "Copper-based OMRI spray",
+            "dosage": "As per label",
+            "frequency": "Every 7 days",
+            "notes": "Approved for organic production"
+          }
+        ]
+      },
+      "prevention": [
+        "Use certified disease-free seeds or transplants",
+        "2-year crop rotation",
+        "Use drip irrigation",
+        "Apply copper spray preventively at transplanting",
+        "Avoid working in field when plants are wet"
+      ],
+      "treatment_timeline": {
+        "day_1": "Remove infected material, apply copper spray",
+        "week_1": "Continue spray, monitor new growth",
+        "week_2_4": "Maintain 7-10 day spray schedule",
+        "month_2": "Preventive spray every 14 days"
+      },
+      "favorable_conditions": {
+        "temperature": "25-30°C",
+        "humidity": ">80%",
+        "season": "Rainy season",
+        "risk_period": "After storms and heavy rain"
+      }
+    },
+
+    "Tomato_Early_blight": {
+      "id": "tomato_early_blight",
+      "display_name": "Tomato Early Blight",
+      "plant": "Tomato",
+      "pathogen_type": "Fungal",
+      "pathogen_name": "Alternaria solani",
+      "severity": "moderate",
+      "is_healthy": false,
+      "overview": "Early blight is one of the most common tomato diseases worldwide. It causes characteristic bulls-eye patterned spots and can severely reduce yield if not managed. Most damaging during warm, humid weather.",
+      "symptoms": [
+        "Dark brown spots with concentric rings (target pattern)",
+        "Yellow halo surrounds each spot",
+        "Lower leaves affected first",
+        "Leaves turn yellow and drop",
+        "Dark collar rot at stem base in seedlings",
+        "Sunken dark spots on fruits near stem"
+      ],
+      "causes": [
+        "Alternaria solani fungus in soil and plant debris",
+        "Spores airborne and water-splashed",
+        "Warm temperatures (24-29°C)",
+        "Alternate wet and dry periods",
+        "Plants stressed by drought or nutrient deficiency"
+      ],
+      "severity_details": {
+        "level": "moderate",
+        "yield_loss_potential": "25-50%",
+        "spread_speed": "moderate",
+        "crop_risk": "moderate — manageable with treatment"
+      },
+      "treatments": {
+        "immediate_action": [
+          "Remove all infected lower leaves immediately",
+          "Do not compost — dispose of away from field",
+          "Apply fungicide within 24 hours of detection"
+        ],
+        "chemical_treatments": [
+          {
+            "name": "Chlorothalonil",
+            "brand_examples": ["Daconil 2787", "Bravo Weather Stik"],
+            "dosage": "2.0 g per liter of water",
+            "frequency": "Every 7 days",
+            "timing": "Apply in cool part of day",
+            "notes": "Best broad-spectrum protectant for early blight"
+          },
+          {
+            "name": "Mancozeb",
+            "brand_examples": ["Dithane M-45", "Indofil M-45"],
+            "dosage": "2.5 g per liter",
+            "frequency": "Every 7-10 days",
+            "timing": "Early morning application",
+            "notes": "Rotate with other fungicides to prevent resistance"
+          },
+          {
+            "name": "Tebuconazole",
+            "brand_examples": ["Folicur", "Raxil"],
+            "dosage": "1.0 ml per liter",
+            "frequency": "Every 14 days",
+            "timing": "At first sign of disease",
+            "notes": "Systemic action, good curative effect"
+          }
+        ],
+        "organic_treatments": [
+          {
+            "name": "Bordeaux Mixture (Copper Sulfate + Lime)",
+            "dosage": "1% solution",
+            "frequency": "Every 10-14 days",
+            "notes": "Highly effective traditional treatment"
+          },
+          {
+            "name": "Bacillus subtilis",
+            "brand_examples": ["Serenade"],
+            "dosage": "4ml per liter",
+            "frequency": "Every 7 days",
+            "notes": "Biological control — safe for bees and environment"
+          }
+        ]
+      },
+      "prevention": [
+        "Use resistant varieties (Mountain Magic, Iron Lady)",
+        "Apply 2-3 year crop rotation",
+        "Mulch to prevent soil splash onto leaves",
+        "Stake plants to improve air circulation",
+        "Fertilize adequately — stressed plants more susceptible",
+        "Water at base of plants, not overhead",
+        "Apply preventive fungicide at first flowering"
+      ],
+      "treatment_timeline": {
+        "day_1": "Remove infected leaves, apply Chlorothalonil",
+        "day_7": "Reapply fungicide, assess spread",
+        "week_2_3": "Continue weekly spray, monitor improvement",
+        "week_4": "If improving, extend to 10-day interval",
+        "ongoing": "Maintain preventive spray until harvest"
+      },
+      "favorable_conditions": {
+        "temperature": "24-29°C",
+        "humidity": "Moderate with dew",
+        "season": "Mid-season onwards",
+        "risk_period": "After periods of stress or nutrient deficiency"
+      }
+    },
+
+    "Tomato_Late_blight": {
+      "id": "tomato_late_blight",
+      "display_name": "Tomato Late Blight",
+      "plant": "Tomato",
+      "pathogen_type": "Oomycete",
+      "pathogen_name": "Phytophthora infestans",
+      "severity": "severe",
+      "is_healthy": false,
+      "overview": "CRITICAL: Same pathogen as Potato Late Blight. Extremely destructive — can wipe out entire crop within days. Requires immediate aggressive treatment.",
+      "symptoms": [
+        "Large irregular water-soaked dark spots on leaves",
+        "White mold on leaf undersides in humid conditions",
+        "Rapid browning and collapse of leaves",
+        "Brown-black stem lesions",
+        "Firm brown rot on green fruits",
+        "Entire plant can collapse within 7-10 days"
+      ],
+      "causes": [
+        "Phytophthora infestans spreads via airborne spores",
+        "Cool temperatures (10-20°C) with high humidity",
+        "Infected transplants from nursery",
+        "Spores can travel from neighboring potato fields"
+      ],
+      "severity_details": {
+        "level": "severe",
+        "yield_loss_potential": "100% if untreated",
+        "spread_speed": "very fast",
+        "crop_risk": "CRITICAL — act within 24 hours"
+      },
+      "treatments": {
+        "immediate_action": [
+          "URGENT: Apply systemic fungicide within 24 hours",
+          "Remove and destroy all infected plant material",
+          "Warn neighboring farmers immediately"
+        ],
+        "chemical_treatments": [
+          {
+            "name": "Metalaxyl + Mancozeb",
+            "brand_examples": ["Ridomil Gold MZ"],
+            "dosage": "2.5 g per liter",
+            "frequency": "Every 7 days",
+            "timing": "Immediately at first sign",
+            "notes": "Most effective treatment — systemic action"
+          },
+          {
+            "name": "Cymoxanil + Famoxadone",
+            "brand_examples": ["Equation Pro"],
+            "dosage": "0.4 g per liter",
+            "frequency": "Every 7-10 days",
+            "timing": "Before rain events",
+            "notes": "Excellent curative and preventive action"
+          }
+        ],
+        "organic_treatments": [
+          {
+            "name": "Copper Hydroxide",
+            "dosage": "3g per liter",
+            "frequency": "Every 5 days in severe conditions",
+            "notes": "Best available organic option"
+          }
+        ]
+      },
+      "prevention": [
+        "Monitor weather forecasts for blight conditions",
+        "Apply preventive fungicide before cool wet periods",
+        "Use resistant varieties (Mountain Magic, Defiant)",
+        "Avoid planting near potato fields",
+        "Remove volunteer tomato and potato plants",
+        "Ensure excellent air circulation between plants"
+      ],
+      "treatment_timeline": {
+        "hour_1_24": "URGENT: Apply Ridomil or systemic fungicide NOW",
+        "day_3": "Reassess — if spreading rapidly consider crop destruction",
+        "week_1": "Continue intensive 5-7 day spray program",
+        "week_2": "Assess whether crop is worth saving"
+      },
+      "favorable_conditions": {
+        "temperature": "10-20°C",
+        "humidity": ">90%",
+        "season": "Cool wet season",
+        "risk_period": "Same as potato blight risk periods"
+      }
+    },
+
+    "Tomato_Leaf_Mold": {
+      "id": "tomato_leaf_mold",
+      "display_name": "Tomato Leaf Mold",
+      "plant": "Tomato",
+      "pathogen_type": "Fungal",
+      "pathogen_name": "Passalora fulva (formerly Cladosporium fulvum)",
+      "severity": "moderate",
+      "is_healthy": false,
+      "overview": "Leaf mold is primarily a disease of greenhouse and tunnel-grown tomatoes. It thrives in high humidity environments and can cause significant defoliation if left unmanaged.",
+      "symptoms": [
+        "Pale green to yellow spots on upper leaf surface",
+        "Olive-green to brown velvety mold on leaf underside",
+        "Infected leaves curl upward and wither",
+        "Severe cases cause complete defoliation",
+        "Flowers and stems rarely affected"
+      ],
+      "causes": [
+        "Passalora fulva fungus in high humidity (>85%)",
+        "Poor ventilation in greenhouses",
+        "Temperatures 18-25°C favor disease",
+        "Spores persist on surfaces and plant debris"
+      ],
+      "severity_details": {
+        "level": "moderate",
+        "yield_loss_potential": "15-40%",
+        "spread_speed": "moderate in humid conditions",
+        "crop_risk": "moderate — mainly indoor crops"
+      },
+      "treatments": {
+        "immediate_action": [
+          "Increase ventilation immediately",
+          "Reduce humidity below 85%",
+          "Remove infected leaves"
+        ],
+        "chemical_treatments": [
+          {
+            "name": "Chlorothalonil",
+            "brand_examples": ["Daconil"],
+            "dosage": "2.0 g per liter",
+            "frequency": "Every 7-10 days",
+            "timing": "Early morning",
+            "notes": "Effective protectant fungicide"
+          },
+          {
+            "name": "Copper Oxychloride",
+            "brand_examples": ["Blitox"],
+            "dosage": "2.5 g per liter",
+            "frequency": "Every 10 days",
+            "timing": "Morning application",
+            "notes": "Good for moderate infections"
+          }
+        ],
+        "organic_treatments": [
+          {
+            "name": "Potassium Bicarbonate",
+            "dosage": "5g per liter",
+            "frequency": "Every 7 days",
+            "notes": "Effective in early stages"
+          },
+          {
+            "name": "Neem Oil",
+            "dosage": "5ml per liter",
+            "frequency": "Every 7 days",
+            "notes": "Good preventive option"
+          }
+        ]
+      },
+      "prevention": [
+        "Maintain humidity below 85% in greenhouses",
+        "Space plants for good air circulation",
+        "Use resistant varieties (Shirley, Aromata)",
+        "Remove lower leaves to improve airflow",
+        "Avoid overhead watering",
+        "Ventilate greenhouses day and night"
+      ],
+      "treatment_timeline": {
+        "day_1": "Improve ventilation, remove infected leaves, apply fungicide",
+        "week_1": "Monitor humidity levels, reapply if needed",
+        "week_2_4": "Continue spray if humidity stays high",
+        "ongoing": "Maintain ventilation as primary prevention"
+      },
+      "favorable_conditions": {
+        "temperature": "18-25°C",
+        "humidity": ">85%",
+        "season": "Year-round in greenhouses",
+        "risk_period": "High humidity periods"
+      }
+    },
+
+    "Tomato_Septoria_leaf_spot": {
+      "id": "tomato_septoria_leaf_spot",
+      "display_name": "Tomato Septoria Leaf Spot",
+      "plant": "Tomato",
+      "pathogen_type": "Fungal",
+      "pathogen_name": "Septoria lycopersici",
+      "severity": "moderate",
+      "is_healthy": false,
+      "overview": "Septoria leaf spot is one of the most common tomato diseases, recognizable by its numerous small spots with white/grey centers and dark borders. It rarely kills plants but causes severe defoliation reducing yield.",
+      "symptoms": [
+        "Numerous small circular spots (3-6mm diameter)",
+        "Spots have white or grey centers with dark brown borders",
+        "Small black dots visible in spot centers (fruiting bodies)",
+        "Lower leaves affected first, progresses upward",
+        "Severe yellowing and leaf drop",
+        "Fruits rarely directly infected"
+      ],
+      "causes": [
+        "Septoria lycopersici fungus in soil and debris",
+        "Spores spread by splashing water",
+        "Warm wet weather (20-25°C)",
+        "Infection enters through stomata"
+      ],
+      "severity_details": {
+        "level": "moderate",
+        "yield_loss_potential": "20-40%",
+        "spread_speed": "moderate",
+        "crop_risk": "moderate — reduced photosynthesis"
+      },
+      "treatments": {
+        "immediate_action": [
+          "Remove all infected lower leaves",
+          "Mulch around plants to prevent soil splash",
+          "Apply fungicide immediately"
+        ],
+        "chemical_treatments": [
+          {
+            "name": "Chlorothalonil",
+            "brand_examples": ["Daconil"],
+            "dosage": "2.0 g per liter",
+            "frequency": "Every 7-10 days",
+            "timing": "Apply when dry weather expected",
+            "notes": "Most effective for Septoria"
+          },
+          {
+            "name": "Mancozeb + Copper",
+            "brand_examples": ["Mancozeb 75 WP"],
+            "dosage": "2.5 g per liter",
+            "frequency": "Every 7 days",
+            "timing": "Early morning",
+            "notes": "Good broad-spectrum protection"
+          }
+        ],
+        "organic_treatments": [
+          {
+            "name": "Copper Sulfate",
+            "dosage": "3g per liter",
+            "frequency": "Every 10 days",
+            "notes": "Traditional effective treatment"
+          },
+          {
+            "name": "Bacillus subtilis (Serenade)",
+            "dosage": "4ml per liter",
+            "frequency": "Every 7 days",
+            "notes": "Biological control option"
+          }
+        ]
+      },
+      "prevention": [
+        "2-3 year crop rotation",
+        "Mulch heavily to prevent soil splash",
+        "Use drip irrigation",
+        "Stake plants to improve airflow",
+        "Remove and destroy all crop debris after season",
+        "Apply preventive fungicide at first flowering"
+      ],
+      "treatment_timeline": {
+        "day_1": "Remove lower infected leaves, apply Chlorothalonil",
+        "week_1_2": "Continue 7-day spray schedule",
+        "week_3_4": "Extend to 10 days if improving",
+        "ongoing": "Maintain until harvest"
+      },
+      "favorable_conditions": {
+        "temperature": "20-25°C",
+        "humidity": "High with frequent rain",
+        "season": "Mid-season",
+        "risk_period": "Prolonged wet weather"
+      }
+    },
+
+    "Tomato_Spider_mites_Two_spotted_spider_mite": {
+      "id": "tomato_spider_mites",
+      "display_name": "Tomato Spider Mites (Two-spotted)",
+      "plant": "Tomato",
+      "pathogen_type": "Pest (Arachnid)",
+      "pathogen_name": "Tetranychus urticae",
+      "severity": "moderate",
+      "is_healthy": false,
+      "overview": "Spider mites are tiny arachnids (not insects) that feed on plant cells. They thrive in hot dry conditions and can rapidly build up large populations. Recognizable by fine webbing on leaves.",
+      "symptoms": [
+        "Fine webbing on undersides of leaves and between stems",
+        "Tiny yellow or white stippling/speckling on leaf surface",
+        "Leaves turn bronze, yellow then brown",
+        "Tiny moving dots visible on leaf underside (the mites)",
+        "Leaves dry out and drop in severe infestations",
+        "Plants appear dusty or bronzed overall"
+      ],
+      "causes": [
+        "Tetranychus urticae — two-spotted spider mite",
+        "Hot dry conditions (>30°C, low humidity) favor rapid reproduction",
+        "Dusty conditions help spread",
+        "Overuse of broad-spectrum insecticides kills natural predators",
+        "Stressed plants more susceptible"
+      ],
+      "severity_details": {
+        "level": "moderate",
+        "yield_loss_potential": "20-60%",
+        "spread_speed": "very fast in hot dry conditions",
+        "crop_risk": "moderate to high in summer"
+      },
+      "treatments": {
+        "immediate_action": [
+          "Spray plants forcefully with water to knock off mites",
+          "Increase humidity around plants",
+          "Apply miticide immediately"
+        ],
+        "chemical_treatments": [
+          {
+            "name": "Abamectin",
+            "brand_examples": ["Agrimek", "Vertimec"],
+            "dosage": "0.5-1.0 ml per liter",
+            "frequency": "Every 7 days, max 3 applications",
+            "timing": "Early morning or evening",
+            "notes": "Very effective miticide — rotate to prevent resistance"
+          },
+          {
+            "name": "Spiromesifen",
+            "brand_examples": ["Oberon"],
+            "dosage": "1.0 ml per liter",
+            "frequency": "Every 14 days",
+            "timing": "Apply when mites first detected",
+            "notes": "Works on eggs and adults"
+          }
+        ],
+        "organic_treatments": [
+          {
+            "name": "Neem Oil",
+            "dosage": "5ml per liter + soap",
+            "frequency": "Every 5-7 days",
+            "notes": "Effective on eggs and young mites"
+          },
+          {
+            "name": "Predatory Mites (Phytoseiulus persimilis)",
+            "dosage": "50 per plant",
+            "frequency": "One-time release",
+            "notes": "Excellent biological control for greenhouses"
+          },
+          {
+            "name": "Insecticidal Soap",
+            "dosage": "5ml per liter",
+            "frequency": "Every 5 days",
+            "notes": "Must contact mites directly to work"
+          }
+        ]
+      },
+      "prevention": [
+        "Monitor plants weekly — check leaf undersides",
+        "Maintain adequate irrigation — mites thrive in drought",
+        "Avoid dusty conditions around plants",
+        "Conserve natural enemies (ladybugs, predatory mites)",
+        "Avoid broad-spectrum insecticides that kill beneficial insects",
+        "Use reflective mulch to repel mites"
+      ],
+      "treatment_timeline": {
+        "day_1": "Water spray, apply neem oil or abamectin",
+        "day_5_7": "Check population, reapply if still present",
+        "week_2": "Switch miticide class to prevent resistance",
+        "week_3": "If organic: release predatory mites"
+      },
+      "favorable_conditions": {
+        "temperature": ">30°C",
+        "humidity": "<50%",
+        "season": "Hot dry summer",
+        "risk_period": "During drought stress"
+      }
+    },
+
+    "Tomato__Target_Spot": {
+      "id": "tomato_target_spot",
+      "display_name": "Tomato Target Spot",
+      "plant": "Tomato",
+      "pathogen_type": "Fungal",
+      "pathogen_name": "Corynespora cassiicola",
+      "severity": "moderate",
+      "is_healthy": false,
+      "overview": "Target spot causes circular brown lesions with concentric rings on leaves, stems and fruits. Common in tropical and subtropical regions with high humidity.",
+      "symptoms": [
+        "Circular brown spots with concentric target-like rings",
+        "Spots up to 1cm diameter on leaves",
+        "Yellow halo around spots",
+        "Dark sunken lesions on fruits",
+        "Stem cankers in severe cases"
+      ],
+      "causes": [
+        "Corynespora cassiicola fungus",
+        "High humidity and temperatures 20-30°C",
+        "Airborne spores land on wet leaf surfaces",
+        "Dense plant canopy restricts airflow"
+      ],
+      "severity_details": {
+        "level": "moderate",
+        "yield_loss_potential": "15-35%",
+        "spread_speed": "moderate",
+        "crop_risk": "moderate"
+      },
+      "treatments": {
+        "immediate_action": [
+          "Remove infected leaves",
+          "Improve plant spacing and ventilation",
+          "Apply fungicide"
+        ],
+        "chemical_treatments": [
+          {
+            "name": "Azoxystrobin",
+            "brand_examples": ["Amistar"],
+            "dosage": "1.0 ml per liter",
+            "frequency": "Every 14 days",
+            "timing": "At first detection",
+            "notes": "Excellent systemic activity"
+          },
+          {
+            "name": "Chlorothalonil",
+            "brand_examples": ["Daconil"],
+            "dosage": "2.0 g per liter",
+            "frequency": "Every 7-10 days",
+            "timing": "Preventive application",
+            "notes": "Good protectant activity"
+          }
+        ],
+        "organic_treatments": [
+          {
+            "name": "Copper Hydroxide",
+            "dosage": "2.5g per liter",
+            "frequency": "Every 10 days",
+            "notes": "Moderate effectiveness"
+          }
+        ]
+      },
+      "prevention": [
+        "Prune lower leaves for airflow",
+        "Avoid overhead irrigation",
+        "Apply preventive fungicide in humid weather",
+        "2-year crop rotation"
+      ],
+      "treatment_timeline": {
+        "day_1": "Remove infected material, apply Azoxystrobin",
+        "week_1_2": "Continue spray program",
+        "week_3_4": "Reduce frequency if improving"
+      },
+      "favorable_conditions": {
+        "temperature": "20-30°C",
+        "humidity": ">80%",
+        "season": "Humid tropical conditions",
+        "risk_period": "Monsoon season"
+      }
+    },
+
+    "Tomato__Tomato_YellowLeaf__Curl_Virus": {
+      "id": "tomato_yellow_leaf_curl",
+      "display_name": "Tomato Yellow Leaf Curl Virus",
+      "plant": "Tomato",
+      "pathogen_type": "Viral",
+      "pathogen_name": "Tomato yellow leaf curl virus (TYLCV)",
+      "severity": "severe",
+      "is_healthy": false,
+      "overview": "TYLCV is one of the most destructive tomato viruses worldwide. Transmitted by whiteflies, it stunts plants and can cause 100% yield loss if infection occurs early in the season. There is NO cure — focus is on prevention and whitefly control.",
+      "symptoms": [
+        "Upward curling and cupping of young leaves",
+        "Leaves turn yellow (chlorotic) especially margins",
+        "Severe stunting of plant growth",
+        "Small distorted leaves",
+        "Flower drop leading to no fruit set",
+        "Plants infected early produce no yield"
+      ],
+      "causes": [
+        "Tomato yellow leaf curl virus (TYLCV) — a Begomovirus",
+        "Transmitted ONLY by silverleaf whitefly (Bemisia tabaci)",
+        "Whitefly acquires virus in 15-30 minutes of feeding",
+        "Can transmit virus for weeks after acquisition",
+        "No seed transmission"
+      ],
+      "severity_details": {
+        "level": "severe",
+        "yield_loss_potential": "100% if infected early",
+        "spread_speed": "depends on whitefly population",
+        "crop_risk": "CRITICAL — no cure exists"
+      },
+      "treatments": {
+        "immediate_action": [
+          "There is NO cure for virus-infected plants",
+          "Remove and destroy infected plants to prevent spread",
+          "Control whitefly populations immediately",
+          "Install reflective mulch to repel whiteflies"
+        ],
+        "chemical_treatments": [
+          {
+            "name": "Imidacloprid (Whitefly control)",
+            "brand_examples": ["Confidor", "Admire"],
+            "dosage": "0.5 ml per liter",
+            "frequency": "Every 7-10 days",
+            "timing": "Early morning — targets whitefly vector",
+            "notes": "Controls whitefly to prevent further spread — does NOT cure virus"
+          },
+          {
+            "name": "Thiamethoxam",
+            "brand_examples": ["Actara"],
+            "dosage": "0.2 g per liter",
+            "frequency": "Every 10 days",
+            "timing": "Morning application",
+            "notes": "Systemic insecticide for whitefly control"
+          },
+          {
+            "name": "Spirotetramat",
+            "brand_examples": ["Movento"],
+            "dosage": "0.75 ml per liter",
+            "frequency": "Every 14 days",
+            "timing": "Early season preventive",
+            "notes": "Controls whitefly nymphs effectively"
+          }
+        ],
+        "organic_treatments": [
+          {
+            "name": "Neem Oil",
+            "dosage": "5ml per liter",
+            "frequency": "Every 5-7 days",
+            "notes": "Repels and disrupts whitefly life cycle"
+          },
+          {
+            "name": "Yellow Sticky Traps",
+            "dosage": "1 trap per 10 plants",
+            "frequency": "Replace every 2-3 weeks",
+            "notes": "Monitors and reduces whitefly populations"
+          },
+          {
+            "name": "Reflective Silver Mulch",
+            "dosage": "Cover soil around plants",
+            "frequency": "Install at planting",
+            "notes": "Highly effective at repelling whiteflies"
+          }
+        ]
+      },
+      "prevention": [
+        "Plant TYLCV-resistant varieties (HM 7882, Shanty)",
+        "Use insect-proof netting in nurseries",
+        "Install yellow sticky traps at crop edges",
+        "Apply imidacloprid at transplanting",
+        "Remove infected plants immediately",
+        "Control weed hosts of whitefly",
+        "Establish whitefly-free nurseries"
+      ],
+      "treatment_timeline": {
+        "at_detection": "Remove infected plants, begin whitefly control",
+        "week_1": "Intensive whitefly spray every 5-7 days",
+        "week_2_4": "Continue whitefly management",
+        "ongoing": "Monitor and trap whiteflies throughout season",
+        "next_season": "Plant resistant varieties, prepare insect barriers"
+      },
+      "favorable_conditions": {
+        "temperature": "25-35°C",
+        "humidity": "Low to moderate",
+        "season": "Dry season with high whitefly pressure",
+        "risk_period": "When whitefly populations are high"
+      }
+    },
+
+    "Tomato__Tomato_mosaic_virus": {
+      "id": "tomato_mosaic_virus",
+      "display_name": "Tomato Mosaic Virus",
+      "plant": "Tomato",
+      "pathogen_type": "Viral",
+      "pathogen_name": "Tomato mosaic virus (ToMV)",
+      "severity": "moderate",
+      "is_healthy": false,
+      "overview": "Tomato mosaic virus causes mottled discoloration of leaves and fruit quality reduction. Unlike TYLCV, it spreads by contact (tools, hands) not insects. Extremely stable — can survive on surfaces for years.",
+      "symptoms": [
+        "Mottled light and dark green mosaic pattern on leaves",
+        "Leaf distortion and curling",
+        "Stunted plant growth",
+        "Yellow streaking on stems",
+        "Fruits show internal browning (chocolate fruit)",
+        "Reduced fruit size and quality"
+      ],
+      "causes": [
+        "Tomato mosaic virus (ToMV) spread by contact",
+        "Transmitted on hands, tools, clothing",
+        "Seed-transmitted (can survive in seed coat)",
+        "Extremely stable — survives 2+ years on dry surfaces",
+        "Tobacco products can carry related virus (TMV)"
+      ],
+      "severity_details": {
+        "level": "moderate",
+        "yield_loss_potential": "10-30%",
+        "spread_speed": "depends on handling practices",
+        "crop_risk": "moderate — fruit quality mainly affected"
+      },
+      "treatments": {
+        "immediate_action": [
+          "No cure exists for infected plants",
+          "Remove severely infected plants",
+          "Disinfect all tools with 10% bleach solution",
+          "Wash hands thoroughly before handling plants"
+        ],
+        "chemical_treatments": [
+          {
+            "name": "No effective chemical cure exists",
+            "brand_examples": [],
+            "dosage": "N/A",
+            "frequency": "N/A",
+            "timing": "N/A",
+            "notes": "Focus on sanitation and prevention"
+          }
+        ],
+        "organic_treatments": [
+          {
+            "name": "Nonfat Dry Milk Solution",
+            "dosage": "0.5 cup per liter water",
+            "frequency": "Spray on hands and tools",
+            "notes": "Milk proteins inactivate virus on surfaces"
+          },
+          {
+            "name": "10% Bleach Solution",
+            "dosage": "1 part bleach to 9 parts water",
+            "frequency": "Use on tools between plants",
+            "notes": "Effective tool disinfectant"
+          }
+        ]
+      },
+      "prevention": [
+        "Use virus-indexed certified seeds",
+        "Disinfect tools between plants with bleach",
+        "Do not smoke near tomato plants",
+        "Wash hands before handling plants",
+        "Remove infected plants immediately",
+        "Plant resistant varieties (with Tm-2 gene)",
+        "Control aphids which may spread secondary infections"
+      ],
+      "treatment_timeline": {
+        "at_detection": "Remove infected plants, sanitize all tools and hands",
+        "ongoing": "Strict sanitation protocol for rest of season",
+        "next_season": "Use virus-free certified seed, resistant varieties"
+      },
+      "favorable_conditions": {
+        "temperature": "Any",
+        "humidity": "Any",
+        "season": "Any — spread by human activity",
+        "risk_period": "When handling plants — pruning, transplanting"
+      }
+    },
+
+    "Tomato_healthy": {
+      "id": "tomato_healthy",
+      "display_name": "Healthy Tomato Plant",
+      "plant": "Tomato",
+      "pathogen_type": null,
+      "severity": "none",
+      "is_healthy": true,
+      "overview": "Your tomato plant looks healthy! Tomatoes are susceptible to many diseases — stay vigilant and maintain good practices.",
+      "symptoms": [],
+      "causes": [],
+      "treatments": {
+        "immediate_action": ["No treatment needed — maintain good practices"],
+        "chemical_treatments": [],
+        "organic_treatments": []
+      },
+      "prevention": [
+        "Apply preventive fungicide at first flowering",
+        "Water at base of plants only",
+        "Stake and prune for good air circulation",
+        "Monitor weekly for early disease signs",
+        "Rotate crops every 2-3 years"
+      ],
+      "maintenance_tips": [
+        "Fertilize with calcium-rich fertilizer to prevent blossom end rot",
+        "Mulch to maintain soil moisture and prevent splash",
+        "Remove suckers weekly for indeterminate varieties",
+        "Check undersides of leaves weekly for pests"
+      ],
+      "treatment_timeline": {
+        "ongoing": "Preventive care and weekly monitoring"
+      }
+    }
+  }
+}
