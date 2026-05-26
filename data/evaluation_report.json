@@ -1,0 +1,100 @@
+{
+  "overall_accuracy": 98.39,
+  "avg_confidence": 89.02999877929688,
+  "total_test_images": 6192,
+  "correct_predictions": 6092,
+  "wrong_predictions": 100,
+  "per_class_results": [
+    {
+      "class_name": "Pepper__bell___Bacterial_spot",
+      "correct": 298,
+      "total": 299,
+      "accuracy": 99.66555183946488
+    },
+    {
+      "class_name": "Pepper__bell___healthy",
+      "correct": 436,
+      "total": 443,
+      "accuracy": 98.41986455981942
+    },
+    {
+      "class_name": "Potato___Early_blight",
+      "correct": 299,
+      "total": 300,
+      "accuracy": 99.66666666666667
+    },
+    {
+      "class_name": "Potato___Late_blight",
+      "correct": 299,
+      "total": 300,
+      "accuracy": 99.66666666666667
+    },
+    {
+      "class_name": "Potato___healthy",
+      "correct": 46,
+      "total": 46,
+      "accuracy": 100.0
+    },
+    {
+      "class_name": "Tomato_Bacterial_spot",
+      "correct": 634,
+      "total": 638,
+      "accuracy": 99.37304075235109
+    },
+    {
+      "class_name": "Tomato_Early_blight",
+      "correct": 288,
+      "total": 300,
+      "accuracy": 96.0
+    },
+    {
+      "class_name": "Tomato_Late_blight",
+      "correct": 557,
+      "total": 573,
+      "accuracy": 97.20767888307155
+    },
+    {
+      "class_name": "Tomato_Leaf_Mold",
+      "correct": 281,
+      "total": 286,
+      "accuracy": 98.25174825174825
+    },
+    {
+      "class_name": "Tomato_Septoria_leaf_spot",
+      "correct": 519,
+      "total": 531,
+      "accuracy": 97.74011299435028
+    },
+    {
+      "class_name": "Tomato_Spider_mites_Two_spotted_spider_mite",
+      "correct": 488,
+      "total": 503,
+      "accuracy": 97.01789264413519
+    },
+    {
+      "class_name": "Tomato__Target_Spot",
+      "correct": 407,
+      "total": 421,
+      "accuracy": 96.67458432304038
+    },
+    {
+      "class_name": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+      "correct": 956,
+      "total": 963,
+      "accuracy": 99.27310488058151
+    },
+    {
+      "class_name": "Tomato__Tomato_mosaic_virus",
+      "correct": 112,
+      "total": 112,
+      "accuracy": 100.0
+    },
+    {
+      "class_name": "Tomato_healthy",
+      "correct": 472,
+      "total": 477,
+      "accuracy": 98.9517819706499
+    }
+  ],
+  "training_val_accuracy": 98.86932644160879
+}
