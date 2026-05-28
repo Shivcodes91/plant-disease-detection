@@ -13,7 +13,9 @@ from pathlib import Path
 from typing import Dict, Optional, List
 
 # Path to our remedies JSON file
-REMEDIES_PATH = Path('data/remedies.json')
+import os
+BASE_DIR = Path(__file__).parent.parent.parent.parent
+REMEDIES_PATH = BASE_DIR / 'data' / 'remedies.json'
 
 
 def load_remedies() -> Dict:
