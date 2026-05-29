@@ -14,7 +14,7 @@ data/raw/
 data/processed/
 
 # Trained model files — too large for git
-backend/models/*.pt
+
 backend/models/*.onnx
 
 # MLflow experiment logs
