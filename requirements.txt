@@ -18,3 +18,4 @@ aiofiles==24.1.0
 loguru==0.7.2
 pydantic==2.10.3
 streamlit==1.41.0
+opencv-python-headless
